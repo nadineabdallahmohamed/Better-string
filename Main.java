@@ -1,4 +1,4 @@
-package check_lambda;
+package Better_string;
 
 public class Main {
 
@@ -7,9 +7,9 @@ public class Main {
 		
 		String first = "Welcome";
 		String second = "Good Morning";
-		StringUtils.betterstring(first, second, (String str,String nw)->nw.equals(str));
-		StringUtils.betterstring(first, second, (String str,String nw)->str.length()>nw.length());
-		StringUtils.betterstring(first, second, (String str,String nw)->true);
+		Second.betterstring(first, second, (String str,String nw)->nw.equals(str));
+		Second.betterstring(first, second, (String str,String nw)->str.length()>nw.length());
+		Second.betterstring(first, second, (String str,String nw)->true);
 
 
 	}
