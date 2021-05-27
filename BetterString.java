@@ -1,4 +1,4 @@
-package check_lambda;
+package Better_string;
 
 public interface Better_str {
 	
